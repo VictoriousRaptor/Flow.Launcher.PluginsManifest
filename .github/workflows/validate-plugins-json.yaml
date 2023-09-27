@@ -21,3 +21,4 @@ jobs:
         json_schema: '.github/workflows/json-schema/schema.json'
         comment: 'true'
         json_schema_version: "draft-2019-09"
+        use_ajv_formats: 'false'
