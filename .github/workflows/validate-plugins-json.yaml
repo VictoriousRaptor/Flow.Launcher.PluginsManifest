@@ -1,6 +1,9 @@
 name: Check plugins.json
 
 on:
+  push:
+    branches:
+      - test
   pull_request:
     paths:
       - 'plugins.json'
